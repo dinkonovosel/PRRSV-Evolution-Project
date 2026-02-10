@@ -21,15 +21,15 @@ Each tool has its own installation instructions; links are listed below.
 - Linux (Ubuntu)
 
 ### Third-party software used
-- 3SEQ
-- RDP5
-- HyPhy
-- BEAST2
-- HybridCheck
-- Dsuite
-- ARGweaver-D
-
-(Links/versions: see Methods and the configuration files in this repository. Where relevant, versions are noted in `[path/to/configs_or_notes]`.)
+- 3SEQ (https://github.com/olli0601/3SEQ)
+- RDP5 (https://web.cbio.uct.ac.za/~darren/rdp.html)
+- HyPhy (https://hyphy.org)
+- BEAST (https://beast.community)
+- HybridCheck (https://github.com/vanOosterhoutLab/HybridCheck)
+- Dsuite (https://github.com/millanek/Dsuite)
+- ARGweaver-D (https://github.com/CshlSiepelLab/argweaver-d-analysis)
+- Generax (https://github.com/BenoitMorel/GeneRax)
+- ThirdKind (https://github.com/simonpenel/thirdkind)
 
 ### Hardware
 No non-standard hardware is required for the demo. Full BEAST analyses may benefit from multi-core CPU/HPC.
@@ -50,15 +50,15 @@ Analyses are organized by step; each step has an input file and a corresponding 
 - Summary/plots: `[https://github.com/dinkonovosel/PRRSV-Evolution-Project/tree/main/Scripts)
 
 ## Demo
-Demo data: `[demo/]`
+Demo data: 
 Run:
-- `[exact command, e.g. bash demo/run_demo.sh]` or `[Rscript demo/run_demo.R]` are given in input files for each software
+- exact command are given in input files for each software
 
 Expected output:
 - `for each calculation was give output file together with input file in the same .zip folder
 
 Expected runtime:
-- **~2–10 minutes** on a normal laptop/desktop.
+- **depends form ~2–10 minutes for the most of softwares while for BEAST, ARGweaver, SBP could be 2 weeks on multi-core CPU/HPC.
 
 ## Data availability
 No new raw sequencing reads were generated. All analysed sequences are publicly available from NCBI GenBank;
