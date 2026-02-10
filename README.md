@@ -62,6 +62,6 @@ Expected runtime:
 
 ## Data availability
 No new raw sequencing reads were generated. All analysed sequences are publicly available from NCBI GenBank;
-GenBank accession numbers are included in the taxon labels and in the metadata table in `[path]`.
+GenBank accession numbers are included in the taxon labels.
 
 Derived alignments used for analyses are provided in Alignments.
