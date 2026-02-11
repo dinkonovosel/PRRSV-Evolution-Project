@@ -3,7 +3,6 @@
 This repository provides scripts, configuration files, and derived datasets used in the manuscript:
 "Intensive industrial farming structures reticulate viral evolution through sustained population overlap".
 
-For peer review, please use **release v1.0.0**.
 
 ## What this repository contains
 - **Scripts and configuration files** used to run the analyses: `[https://github.com/dinkonovosel/PRRSV-Evolution-Project/tree/main/Scripts]`
